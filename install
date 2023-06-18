@@ -1,10 +1,10 @@
 #!/bin/bash
 
 clear
-mv /root/led-hg/inet-hg680p.sh /root/usr/bin
-mv /root/led-hg/hg680p.sh /root/usr/bin
-chmod +x /root/usr/bin/inet-hg680p.sh
-chmod +x /root/usr/bin/hg680p.sh
+mv /led-hg/inet-hg680p.sh /usr/bin/
+mv /led-hg/hg680p.sh /usr/bin/
+chmod +x /usr/bin/inet-hg680p.sh
+chmod +x /usr/bin/hg680p.sh
 
 cd /root
 touch /root/led

@@ -11,5 +11,7 @@ cd /root
 touch /root/led
 echo ok > /root/led
 echo " Install selesai"
-echo " ketik perintah : inet-hg680p.sh -r"
-echo " Untuk Menyalakan LED Indicator"
+echo " ketik perintah : inet-hg680p.sh -s"
+echo " Untuk stop LED Indicator"
+sleep 2
+bash inet-hg680p.sh -r

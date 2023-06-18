@@ -1,9 +1,8 @@
 #!/bin/bash
 
 clear
-cd led-hg 
-mv inet-hg680p.sh /root/usr/bin
-mv hg680p.sh /root/usr/bin
+mv /root/led-hg/inet-hg680p.sh /root/usr/bin
+mv /root/led-hg/hg680p.sh /root/usr/bin
 chmod +x /root/usr/bin/inet-hg680p.sh
 chmod +x /root/usr/bin/hg680p.sh
 

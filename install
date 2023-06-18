@@ -15,3 +15,5 @@ echo " ketik perintah : inet-hg680p.sh -s"
 echo " Untuk stop LED Indicator"
 sleep 2
 bash inet-hg680p.sh -r
+cd
+rm -rf led-hg

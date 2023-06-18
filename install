@@ -1,10 +1,15 @@
 #!/bin/bash
 
 clear
+cd led-hg 
+mv inet-hg680p.sh /root/usr/bin
+mv hg680p.sh /root/usr/bin
+chmod +x /root/usr/bin/inet-hg680p.sh
+chmod +x /root/usr/bin/hg680p.sh
 
 cd /root
 touch /root/led
 echo ok > /root/led
 echo " Install selesai"
 echo " ketik perintah : inet-hg680p.sh -r"
-echo " Untuk Menyalakan LED Internet Indicator"
+echo " Untuk Menyalakan LED Indicator"
